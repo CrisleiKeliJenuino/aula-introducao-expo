@@ -9,7 +9,12 @@ Repositório com as aulas, práticas e exercícios da disciplina **Desenvolvimen
 
 📍 Curso: Técnico em Desenvolvimento de Sistemas  
 🏫 Instituição: ETEC Prof. Massuyuki Kawano – Tupã/SP  
-👨‍🏫 Professor: Ewerton José da Silva  
+
+## 👨‍💻 Créditos
+
+Material desenvolvido com orientação do professor  
+[Ewerton José da Silva](https://github.com/ewertonjsilva)
+
 
 ---
 
