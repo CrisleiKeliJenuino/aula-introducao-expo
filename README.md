@@ -13,7 +13,7 @@ Repositório com as aulas, práticas e exercícios da disciplina **Desenvolvimen
 ## 👨‍💻 Créditos
 
 Material desenvolvido com orientação do professor  
-[Ewerton José da Silva](https://github.com/ewertonjsilva)
+[![GitHub do Professor](https://img.shields.io/badge/GitHub-Ewerton_José_da_Silva-181717?style=for-the-badge&logo=github)](https://github.com/ewertonjsilva)
 
 
 ---
