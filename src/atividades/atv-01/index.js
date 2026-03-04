@@ -2,16 +2,20 @@ import {View, Text } from 'react-native';
 
 import styles from './styles';
 
-function Exemplo01 () {
+function Atividade01 () {
     return(
         <View style={styles.container} >
-            <Text style={styles.titulo} >Exemplo 1</Text>
+            <Text style={styles.titulo} >Atividade 01</Text>
 
             <Text style={styles.texto}>
                 Aula de React Native com Expo
+            </Text>
+
+            <Text style={styles.texto2}>
+                Aula de React Native com Expo para dar uma fuçada
             </Text>
         </View>
     );
 }
 
-export default Exemplo01;
+export default Atividade01;
