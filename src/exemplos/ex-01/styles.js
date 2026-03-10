@@ -1,16 +1,17 @@
 import {StyleSheet} from 'react-native';
+import { RFPercentage } from 'react-native-responsive-fontsize';
 
 const styles=StyleSheet.create({
     container: {
         backgroundColor: '#81122a',
         //margin: 20,
-        padding: 20,
+        padding: RFPercentage(2),
         flex: 1,
         borderRadius: 20,
     },
     titulo: {
         fontFamily: 'Lucida Calligraphy',
-        fontSize: 30,
+        fontSize: RFPercentage(5),
         color: '#fff',
         width:'100%',
         fontWeight: 'bold',
@@ -20,7 +21,7 @@ const styles=StyleSheet.create({
     texto:{
         textAlign: 'justify',
         fontFamily: 'Lucida',
-        fontSize: 18,
+        fontSize: RFPercentage(3),
         color: '#fff'
     },
 });
