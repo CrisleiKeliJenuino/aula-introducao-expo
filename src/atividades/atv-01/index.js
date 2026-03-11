@@ -14,6 +14,10 @@ function Atividade01 () {
             <Text style={styles.texto2}>
                 Aula de React Native com Expo para dar uma fuçada
             </Text>
+
+            <Text style={styles.textorodape}>
+                by Crislei Jenuino
+            </Text>
         </View>
     );
 }

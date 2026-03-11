@@ -41,6 +41,16 @@ const styles=StyleSheet.create({
         textShadowOffset: {width: 1, height: 1},
         textShadowRadius: 1,
     },
+    textorodape:{
+        textAlign: 'right',
+        fontFamily: 'comic sans ms',
+        fontSize: RFPercentage(2),
+        color: '#46257b',
+        marginTop: 50,
+        textShadowColor: '#fefcfc',
+        textShadowOffset: {width: 1, height: 1},
+        textShadowRadius: 1,
+    },
 });
 
 export default styles;
