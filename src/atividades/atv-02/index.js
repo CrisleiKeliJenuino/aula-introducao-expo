@@ -6,23 +6,25 @@ import img from '../../../assets/002-1-react-native.png';
 
 import Mensagem from './mensagens';
 
-function Exemplo02 () {
+function Atividade02 () {
     return(
         <View style={styles.container}>
-            <Text style={styles.titulo}>Exemplo 2</Text>
+            <Text style={styles.titulo}>Atividade 2</Text>
             <Image source={img} style={styles.imagem} /> 
 
-            <Mensagem titulo={'Sucesso'}>
+            <Mensagem titulo={'FLORATTA ROMANCE DE VERÃO'}>
                 Valor enviado corretamente!
             </Mensagem>
-            <Mensagem titulo={'Erro'}>
+            <Mensagem titulo={'FLORATTA BLUE'}>
                 O programa não respondeu como esperado!
             </Mensagem>
-            <Mensagem titulo={'Alerta'}>
+            <Mensagem titulo={'FLORATTA RED BLOSS'}>
+                Você não pode fazer isso!
+            </Mensagem><Mensagem titulo={'FLORATTA GOLD'}>
                 Você não pode fazer isso!
             </Mensagem>
         </View>
     );
 }
 
-export default Exemplo02;
+export default Atividade02;

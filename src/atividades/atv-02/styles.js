@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         // filter: 'grayscale(80%)', 
         // filter: 'sepia(80%)', 
         // filter: 'saturate(10%)', 
-        filter: 'brightness(30%)', 
+        //filter: 'brightness(30%)', 
         // filter: 'contrast(50%)', 
         // filter: 'invert(100%)', 
     }, 
