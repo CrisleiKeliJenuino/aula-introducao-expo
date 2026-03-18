@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     titulo: {
         fontSize: RFPercentage(4), // tamanho da fonte
         fontWeight: 'bold', 
-        borderWidth: 3, // expessura da borda
+        borderWidth: 3, // expess
         marginTop: 20, // margem acima do elemento
         marginBottom: 20, // margem abaixo do elemento
         paddingVertical: 10, // espaço interno
@@ -23,19 +23,7 @@ const styles = StyleSheet.create({
         color: 'darkslategrey', // cor do texto 
         borderColor: 'darkslategrey', // cor da borda 
         borderRadius: 20, // arrendondar borda
-    }, 
-    imagem: {
-        // height: RFPercentage(16), 
-        // width: RFPercentage(48),  
-        width: '90%', 
-        resizeMode: 'contain', 
-        // filter: 'grayscale(80%)', 
-        // filter: 'sepia(80%)', 
-        // filter: 'saturate(10%)', 
-        //filter: 'brightness(30%)', 
-        // filter: 'contrast(50%)', 
-        // filter: 'invert(100%)', 
-    }, 
+    }
 });
 
 export default styles;
