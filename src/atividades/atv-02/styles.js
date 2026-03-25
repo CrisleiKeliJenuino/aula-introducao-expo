@@ -12,16 +12,15 @@ const styles = StyleSheet.create({
     }, 
     titulo: {
         fontSize: RFPercentage(4), // tamanho da fonte
-        fontWeight: 'bold', 
-        borderWidth: 3, // expess
+        fontWeight: 'bold', // negrito
         marginTop: 20, // margem acima do elemento
         marginBottom: 20, // margem abaixo do elemento
         paddingVertical: 10, // espaço interno
         width: '100%', // largura do objeto
         textAlign: 'center', // alinhamento horizontal do texto no container
         textAlignVertical: 'center', // alinhamento vertical do texto no container
-        color: 'darkslategrey', // cor do texto 
-        borderColor: 'darkslategrey', // cor da borda 
+        color: '#f90c67', // cor do texto 
+    
         borderRadius: 20, // arrendondar borda
     }
 });

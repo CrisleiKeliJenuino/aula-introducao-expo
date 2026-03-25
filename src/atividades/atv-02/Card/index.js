@@ -6,7 +6,7 @@ function Card({titulo, descricao, preco, img}){
     return(
         <View style={styles.container}>
             <Image source={img} style={styles.imagem} />
-            <View style={styles.textContainer}>
+            <View style={styles}>
                 <Text style={styles.titulo}>{titulo}</Text>
                 <Text style={styles.descricao}>{descricao}</Text><br></br>
                 <Text style={styles.preco}>R${preco}</Text>
