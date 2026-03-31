@@ -48,14 +48,21 @@ function Atividade03() {
             <Text style={styles.titulo}>Exemplo 3</Text>
             <Text style={styles.texto}>Variáveis e State</Text>
 
-            <View style={styles.botaoSomaSubtrair}>
-           <Text style={styles.valor}>{numero}</Text>
-                <TouchableOpacity style={styles.botao} onPress={handleDecrementa}>
-                    <Text style={styles.txtBotao}>-</Text>
+            <View style={styles.botao}>
+                <TouchableOpacity style={styles.botaoSomaSubtrair} onPress={handleIncrementa}>
+                    <Text style={styles.txtBotao}>+</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={styles.botao} onPress={handleIncrementa}>
-                    <Text style={styles.txtBotao}>+</Text>
+                <Text style={styles.valor}>{numero}</Text> 
+          
+                <TouchableOpacity style={styles.botaoSomaSubtrair} onPress={handleDecrementa}>
+                    <Text style={styles.txtBotao}>-</Text>
+                </TouchableOpacity>
+            </View>
+
+            <View style={styles.botaoZerar}>
+                <TouchableOpacity style={styles.botaoZerar} onPress={() => setNumero(0)}>
+                    <Text style={styles.txtBotao}>Zerar</Text>
                 </TouchableOpacity>
             </View>
         </View>

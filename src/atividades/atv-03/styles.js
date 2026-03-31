@@ -10,9 +10,6 @@ const styles = StyleSheet.create({
         padding: 8, 
         alignItems: 'center', // alinhamento horizontal - flexDirection collumn
     },
-    botaoSomaSubtrair: {
-        borderColor: 'darkslategrey',
-    },
     titulo: {
         fontSize: RFPercentage(4), // tamanho da fonte
         fontWeight: 'bold', 
@@ -28,28 +25,41 @@ const styles = StyleSheet.create({
         borderRadius: 20, // arrendondar borda
     }, 
     texto: {
-        fontSize: RFPercentage(2.2),  
+        fontSize: RFPercentage(3),  
     }, 
-    botaoAlert: {
-        width: '75%', 
-        margin: RFPercentage(2),         
-    }, 
+    botao:{
+        flexDirection: 'row', // alinha os botões na horizontal
+        alignItems: 'center', // alinhamento vertical
+        justifyContent: 'center', // alinhamento horizontal
+    },
     valor: {
-        color: 'darkslategrey',  
+        color: '#000',  
         fontSize: RFPercentage(4),
+        alignItems: 'center',
+        justifyContent: 'center', 
+        marginHorizontal: RFPercentage(5),
     }, 
-    botao: {
+    botaoSomaSubtrair: {
         backgroundColor: 'darkslategrey', 
-        width: '75%', 
-        borderRadius: RFPercentage(2), 
-        padding: RFPercentage(1), 
-        alignItems: 'center' , 
+        width: '35%',  
+        padding: RFPercentage(1.5), 
+        alignItems: 'center', 
         justifyContent: 'center', 
         margin: RFPercentage(2),
+        borderRadius: RFPercentage(6), 
+    }, 
+    botaoZerar: {
+        width: '55%', 
+        margin: RFPercentage(2), 
+        alignItems: 'center', 
+        justifyContent: 'center', 
+        backgroundColor: 'darkslategrey',   
+        borderRadius: RFPercentage(5),     
     }, 
     txtBotao: {
-        fontSize: RFPercentage(2), 
-        color: '#fafafa',
+        fontSize: RFPercentage(4), 
+        color: '#f5f4f4',
+
     }, 
 });
 
