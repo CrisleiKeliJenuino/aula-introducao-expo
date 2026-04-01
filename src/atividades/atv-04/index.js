@@ -7,7 +7,7 @@ export default function Atividade04() {
 
     const [texto, setTexto] = useState('Inserir nome e sobrenome');
     const [txt2, setTxt2] = useState(''); 
-    const [mensagem, setMensagem] = useState(''); 
+    const [mensagem, setMensagem] = useState(' '); 
 
     function handleExibeMensagem() {
         setMensagem(txt2);
@@ -19,10 +19,10 @@ export default function Atividade04() {
             <Text style={styles.titulo}>Atividade 4</Text>
 
             <Text style={styles.txt}>{texto}</Text>
-
+            <Text style={styles.texto}>Nome</Text>
             <TextInput
                 onChangeText={setTexto}
-                placeholder='Nome'
+                placeholder=' '
                 keyboardType='ascii-capable'
                 // editable={false}
                 // multiline
@@ -33,10 +33,11 @@ export default function Atividade04() {
             />
 
             <Text style={styles.txt}>{mensagem}</Text>
+            <Text style={styles.texto}>Sobrenome</Text>
             <TextInput
                 value={txt2} 
                 onChangeText={setTxt2}
-                placeholder='Sobrenome'
+                placeholder=' '
                 keyboardType='ascii-capable'                
                 style={styles.input}
             />

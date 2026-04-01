@@ -39,6 +39,9 @@ const styles = StyleSheet.create(
             fontSize: RFPercentage(2), 
             color: '#fafafa',
         },
+        texto:{
+           
+        }
     }
 );  
 
