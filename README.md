@@ -2,7 +2,6 @@
 
 - Material desenvolvido com orientação do professor 
 
-[![Professor Ewerton José da Silva](https://img.shields.io/badge/Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
 [![GitHub Ewerton](https://img.shields.io/badge/GitHub-Ewerton%20Jos%C3%A9%20da%20Silva-181717?style=for-the-badge&logo=github)](https://github.com/ewertonjsilva)
 
 - 🎓 Curso: Técnico em Desenvolvimento de Sistemas
