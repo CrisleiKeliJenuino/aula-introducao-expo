@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lang:badges": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/update-language-badges.ps1"
   },
   "dependencies": {
     "expo": "~54.0.33",

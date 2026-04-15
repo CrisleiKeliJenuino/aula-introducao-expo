@@ -1,4 +1,9 @@
-# Aula Introdução - React Native com Expo
+﻿# Aula Introdução - React Native com Expo
+
+<!-- Language badges:start -->
+![Linguagem principal: JavaScript 98.4%](https://img.shields.io/badge/Linguagem%20principal-JavaScript%2098.4%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![JSON 1.6%](https://img.shields.io/badge/JSON-1.6%25-000000?style=for-the-badge&logo=json&logoColor=white)
+<!-- Language badges:end -->
 
 - Material desenvolvido com orientação do professor 
 
@@ -75,3 +80,5 @@ Alguns exercícios foram quebrados em componentes menores para facilitar o reapr
 Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
 
 Este material foi preparado para te ajudar a acompanhar a aula, praticar com calma e revisar os conteúdos sempre que precisar. 🌷
+
+
