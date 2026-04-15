@@ -2,7 +2,7 @@
 
 ## Créditos
 
-![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)
+[![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
 
 Material desenvolvido com orientação do professor [Ewerton José da Silva](https://github.com/ewertonjsilva).
 
