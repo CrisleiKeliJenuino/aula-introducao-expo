@@ -24,14 +24,14 @@ ________________________________________________________________________________
 
 O projeto foi organizado para acompanhar a evolução das aulas: primeiro os exemplos introdutórios, depois as atividades práticas desenvolvidas em sala. ✨
 
-## Destaques
+## ✨ Destaques
 
 - 🚀 Estrutura pensada para aprendizado progressivo.
 - 🧩 Componentes separados por responsabilidade.
 - 🎯 Código organizado para facilitar demonstrações em aula.
 - 🛠️ Compatível com execução em Android, iOS e Web.
 
-## Como executar
+## ▶️ Como executar
 
 1. Instale as dependências com `npm install`.
 2. Inicie o projeto com `npm start`.
@@ -39,7 +39,7 @@ O projeto foi organizado para acompanhar a evolução das aulas: primeiro os exe
 
 Se quiser alternar o conteúdo exibido, edite o componente renderizado em [App.js](App.js).
 
-## Estrutura do projeto
+## 🗂️ Estrutura do projeto
 
 O repositório está dividido em três partes principais:
 
@@ -47,7 +47,7 @@ O repositório está dividido em três partes principais:
 - 🧪 [src/atividades](src/atividades) - atividades propostas para prática.
 - 👨‍🏫 [src/atividades_professor](src/atividades_professor) - exercícios resolvidos.
 
-## Exemplos apresentados
+## 📚 Exemplos apresentados
 
 - [ex-01](src/exemplos/ex-01) - introdução ao React Native com estrutura básica de tela e texto.
 - [ex-02](src/exemplos/ex-02) - uso de imagens e componentes reutilizáveis para exibir mensagens.
@@ -59,7 +59,7 @@ O repositório está dividido em três partes principais:
 - [ex-08](src/exemplos/ex-08) - lista de compras com inclusão e remoção de itens.
 - [ex-09](src/exemplos/ex-09) - jogo da velha com controle de jogadas e vencedor.
 
-## Atividades propostas
+## 🧪 Atividades propostas
 
 - [atv-01](src/atividades/atv-01) - primeira atividade de layout e organização visual da tela.
 - [atv-02](src/atividades/atv-02) - montagem de cards com imagens, descrição e preço de produtos.
@@ -67,7 +67,7 @@ O repositório está dividido em três partes principais:
 - [atv-04](src/atividades/atv-04) - formulário simples para montar nome completo a partir de dois campos.
 - [atv-05](src/atividades/atv-05) - calculadora básica com soma, subtração, divisão, multiplicação e limpeza.
 
-## Componentes de apoio
+## 🧩 Componentes de apoio
 
 Alguns exercícios foram quebrados em componentes menores para facilitar o reaproveitamento e a organização do código.
 
@@ -75,7 +75,7 @@ Alguns exercícios foram quebrados em componentes menores para facilitar o reapr
 - 🔘 Botões e inputs reutilizáveis nos exemplos mais avançados.
 - 🗂️ Estrutura separada por pastas para manter cada exercício isolado.
 
-## Objetivo da aula
+## 🎯 Objetivo da aula
 
 Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
 
