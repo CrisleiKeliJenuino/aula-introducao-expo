@@ -1,27 +1,75 @@
-# 📱 Aula Introdução – React Native com Expo
+# Aula Introdução - React Native com Expo
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![Mobile](https://img.shields.io/badge/Plataforma-Mobile-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20aula-2ea44f?style=for-the-badge)
 
-Repositório com as aulas, práticas e exercícios da disciplina **Desenvolvimento Mobile**, com foco na criação de aplicativos utilizando **React Native** com **Expo**.
+> 📱 Repositório com exemplos, atividades e componentes de apoio para as aulas de **Desenvolvimento Mobile** usando **React Native + Expo**.
 
-📍 Curso: Técnico em Desenvolvimento de Sistemas  
-🏫 Instituição: ETEC Prof. Massuyuki Kawano – Tupã/SP  
+O projeto foi organizado para acompanhar a evolução das aulas: primeiro os exemplos introdutórios, depois as atividades práticas desenvolvidas em sala. ✨
 
-## 👨‍💻 Créditos
+## Destaques
 
-Material desenvolvido com orientação do professor  
-[![GitHub do Professor](https://img.shields.io/badge/GitHub-Ewerton_José_da_Silva-181717?style=for-the-badge&logo=github)](https://github.com/ewertonjsilva)
+- 🚀 Estrutura pensada para aprendizado progressivo.
+- 🧩 Componentes separados por responsabilidade.
+- 🎯 Código organizado para facilitar demonstrações em aula.
+- 🛠️ Compatível com execução em Android, iOS e Web.
 
+## Contexto
 
----
+- 🎓 Curso: Técnico em Desenvolvimento de Sistemas
+- 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
 
-## 🧑‍🏫 Aula – Introdução ao React Native com Expo
+## Como executar
 
----
+1. Instale as dependências com `npm install`.
+2. Inicie o projeto com `npm start`.
+3. Use `npm run android`, `npm run ios` ou `npm run web` conforme o ambiente disponível.
 
-## 🎯 Objetivo da Aula
+Se quiser alternar o conteúdo exibido, edite o componente renderizado em [App.js](App.js).
 
-Apresentar os conceitos fundamentais do **React Native**, utilizando o **Expo** como ferramenta para desenvolvimento, execução e testes de aplicativos mobile, destacando a estrutura de um projeto, componentes básicos e fluxo de execução da aplicação.
+## Estrutura do projeto
+
+O repositório está dividido em três partes principais:
+
+- 📚 [src/exemplos](src/exemplos) - exemplos usados nas explicações da aula.
+- 🧪 [src/atividades](src/atividades) - atividades propostas para prática.
+- 👨‍🏫 [src/atividades_professor](src/atividades_professor) - versões de referência e apoio do professor.
+
+## Exemplos apresentados
+
+- [ex-01](src/exemplos/ex-01)
+- [ex-02](src/exemplos/ex-02)
+- [ex-03](src/exemplos/ex-03)
+- [ex-04](src/exemplos/ex-04)
+- [ex-05](src/exemplos/ex-05)
+- [ex-06](src/exemplos/ex-06)
+- [ex-07](src/exemplos/ex-07)
+- [ex-08](src/exemplos/ex-08)
+- [ex-09](src/exemplos/ex-09)
+
+## Atividades propostas
+
+- [atv-01](src/atividades/atv-01)
+- [atv-02](src/atividades/atv-02)
+- [atv-03](src/atividades/atv-03)
+- [atv-04](src/atividades/atv-04)
+- [atv-05](src/atividades/atv-05)
+
+## Componentes de apoio
+
+Alguns exercícios foram quebrados em componentes menores para facilitar o reaproveitamento e a organização do código.
+
+- 🃏 Cards e mensagens nas atividades de lista e formulários.
+- 🔘 Botões e inputs reutilizáveis nos exemplos mais avançados.
+- 🗂️ Estrutura separada por pastas para manter cada exercício isolado.
+
+## Objetivo da aula
+
+Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
+
+## Créditos
+
+Material desenvolvido com orientação do professor [Ewerton José da Silva](https://github.com/ewertonjsilva).
