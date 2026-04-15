@@ -7,8 +7,6 @@
 ![Mobile](https://img.shields.io/badge/Plataforma-Mobile-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Em%20aula-2ea44f?style=for-the-badge)
 
-## Créditos
-
 Material desenvolvido com orientação do professor [![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
 
 > 📱 Repositório com exemplos, atividades e componentes de apoio para as aulas de **Desenvolvimento Mobile** usando **React Native + Expo**.
