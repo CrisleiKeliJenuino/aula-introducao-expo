@@ -6,7 +6,8 @@
 <!-- Language badges:end -->
 
 - Material desenvolvido com orientação do professor:
-[![GitHub do Professor](https://img.shields.io/badge/GitHub%20do%20Professor-%40ewertonjsilva-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ewertonjsilva) ![Status](https://img.shields.io/badge/Status-Em%20Evolu%C3%A7%C3%A3o-blue?style=for-the-badge)
+
+[![GitHub do Professor](https://img.shields.io/badge/GitHub%20do%20Professor-%40ewertonjsilva-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ewertonjsilva) 
 
 - 🎓 Curso: Técnico em Desenvolvimento de Sistemas
 - 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
