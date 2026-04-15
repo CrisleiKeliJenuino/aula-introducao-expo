@@ -1,10 +1,5 @@
 ﻿# Aula Introdução - React Native com Expo
 
-<!-- Language badges:start -->
-![Linguagem principal: JavaScript 98.4%](https://img.shields.io/badge/Linguagem%20principal-JavaScript%2098.4%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![JSON 1.6%](https://img.shields.io/badge/JSON-1.6%25-000000?style=for-the-badge&logo=json&logoColor=white)
-<!-- Language badges:end -->
-
 - Material desenvolvido com orientação do professor:
 
 [![GitHub do Professor](https://img.shields.io/badge/GitHub%20do%20Professor-%40ewertonjsilva-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ewertonjsilva) 
@@ -23,6 +18,11 @@ ________________________________________________________________________________
 > 📱 Repositório com exemplos, atividades e componentes de apoio para as aulas de **Desenvolvimento Mobile** usando **React Native + Expo**.
 
 O projeto foi organizado para acompanhar a evolução das aulas: primeiro os exemplos introdutórios, depois as atividades práticas desenvolvidas em sala. ✨
+
+<!-- Language badges:start -->
+![Linguagem principal: JavaScript 98.4%](https://img.shields.io/badge/Linguagem%20principal-JavaScript%2098.4%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![JSON 1.6%](https://img.shields.io/badge/JSON-1.6%25-000000?style=for-the-badge&logo=json&logoColor=white)
+<!-- Language badges:end -->
 
 ## ✨ Destaques
 
