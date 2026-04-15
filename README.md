@@ -13,7 +13,7 @@ ________________________________________________________________________________
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![Mobile](https://img.shields.io/badge/Plataforma-Mobile-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em%20aula-2ea44f?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-2ea44f?style=for-the-badge)
 
 > 📱 Repositório com exemplos, atividades e componentes de apoio para as aulas de **Desenvolvimento Mobile** usando **React Native + Expo**.
 
