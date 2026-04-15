@@ -3,6 +3,7 @@
 - Material desenvolvido com orientação do professor 
 
 [![Professor Ewerton José da Silva](https://img.shields.io/badge/Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
+![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?style=for-the-badge&logo=github)
 
 - 🎓 Curso: Técnico em Desenvolvimento de Sistemas
 - 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
