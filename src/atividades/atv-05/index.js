@@ -3,7 +3,7 @@ import { View, Text, Pressable, TextInput } from 'react-native';
 
 import styles from './styles';
 
-export default function Exemplo05() {
+export default function Atividade05() {
 
     const [isFocusN1, setIsFocusN1] = useState(false);
     const [isFocusN2, setIsFocusN2] = useState(false);
@@ -17,9 +17,21 @@ export default function Exemplo05() {
         setTotal(parseFloat(n1) + parseFloat(n2));
     }
 
+    function subtrair() {
+        setTotal(parseFloat(n1) - parseFloat(n2));
+    }
+
+    function dividir() {
+        setTotal(parseFloat(n1) / parseFloat(n2));
+    }
+
+    function multiplicar() {
+        setTotal(parseFloat(n1) * parseFloat(n2));
+    }
+
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}> Exemplo 5 </Text>
+            <Text style={styles.titulo}> Atividade 5 </Text>
 
             <Text style={styles.txtSaida}> Calculadora básica </Text>
 
@@ -41,6 +53,8 @@ export default function Exemplo05() {
                 onBlur={() => setIsFocusN1(false)}
                 onChangeText={(num1) => setN1(num1)}
                 value={n1.toString()}
+            // keyboardType='numeric'
+
             />
 
             <Text style={styles.txtSaida}> + </Text>
@@ -87,19 +101,71 @@ export default function Exemplo05() {
                 readOnly={true}
                 value={total ? parseFloat(total).toFixed(2) : '0.00'}
             />
+            
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%' }}>
+                <Pressable
+                    onPress={() => soma()}
+                    style={
+                        ({ pressed }) => pressed ?
+                            [styles.button, styles.buttonTouch]
+                            :
+                            styles.button
+                    }
+                >
+                    <Text style={styles.textButton}> + </Text>
+                </Pressable>
 
-            <Pressable
-                onPress={() => soma()}
-                style={
-                    ({ pressed }) => pressed ?
-                        [styles.button, styles.buttonTouch]
-                        :
-                        styles.button
-                }
-            >
-                <Text style={styles.textButton}> + </Text>
-            </Pressable>
+                <Pressable
+                    onPress={() => subtrair()}
+                    style={
+                        ({ pressed }) => pressed ?
+                            [styles.button, styles.buttonTouch]
+                            :
+                            styles.button
+                    }
+                >
+                    <Text style={styles.textButton}> - </Text>
+                </Pressable>
 
+                <Pressable
+                    onPress={() => dividir()}
+                    style={
+                        ({ pressed }) => pressed ?
+                            [styles.button, styles.buttonTouch]
+                            :
+                            styles.button
+                    }
+                >
+                    <Text style={styles.textButton}> / </Text>
+                </Pressable>
+
+                <Pressable
+                    onPress={() => multiplicar()}
+                    style={
+                        ({ pressed }) => pressed ?
+                            [styles.button, styles.buttonTouch]
+                            :
+                            styles.button
+                    }
+                >
+                    <Text style={styles.textButton}> * </Text>
+                </Pressable>
+            </View>  
+                    <Pressable
+                        onPress={() => {
+                            setN1(0);
+                            setN2(0);
+                            setTotal(0);
+                        }}
+                        style={
+                            ({ pressed }) => pressed ?
+                                [styles.buttonZerar, styles.buttonTouch]
+                                :
+                                styles.buttonZerar
+                        }
+                    >
+                        <Text style={styles.textButton}> Zerar </Text>
+                    </Pressable>
         </View>
-    );
+    );  
 }

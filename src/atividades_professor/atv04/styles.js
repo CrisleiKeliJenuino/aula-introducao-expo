@@ -16,16 +16,24 @@ const styles = StyleSheet.create(
         }, 
         txt: {
             fontSize: RFPercentage(2.5), 
-            margin: RFPercentage(2),
+            marginBottom: RFPercentage(5), 
+            color: 'darkslategrey', 
+            fontWeight: 'bold',
         }, 
+        label: {
+            fontSize: RFPercentage(2), 
+            width: '80%',
+            textAlign: 'left', 
+            color: 'darkslategrey', 
+        },  
         input: {
-            borderWidth: RFPercentage(0.25), 
+            borderWidth: RFPercentage(0.5), 
             borderColor: 'darkslategrey', 
             width: '80%', 
             borderRadius: RFPercentage(1.5), 
             padding: RFPercentage(1.5), 
             fontSize: RFPercentage(2), 
-            textAlign: 'center',
+            textAlign: 'center', 
             marginBottom: RFPercentage(2),
         }, 
         botao: {
@@ -41,9 +49,6 @@ const styles = StyleSheet.create(
             fontSize: RFPercentage(2), 
             color: '#fafafa',
         },
-        texto:{
-           
-        }
     }
 );  
 

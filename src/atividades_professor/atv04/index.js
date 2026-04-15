@@ -5,13 +5,13 @@ import styles from './styles';
 
 export default function Atividade04() {
 
+    const [nomeCompleto, setNomeCompleto] = useState('Inserir nome e sobrenome');
     const [nome, setNome] = useState('');
-    const [sobrenome, setSobrenome] = useState(''); 
-    const [nomeCompleto, setNomeCompleto] = useState(' '); 
+    const [sobrenome, setSobrenome] = useState('');
 
-    function handleExibeMensagem() {
+    function handleExibeNomeCompleto() {
         setNomeCompleto(`${nome} ${sobrenome}`);
-        setNome('');
+        setNome(''); 
         setSobrenome('');
     }
 
@@ -21,27 +21,28 @@ export default function Atividade04() {
 
             <Text style={styles.txt}>{nomeCompleto}</Text>
 
+            <Text style={styles.label}>Nome</Text>
             <TextInput
                 onChangeText={setNome}
+                keyboardType='ascii-capable'
                 value={nome}
-                placeholder='Nome'
-                maxLength={10}
                 style={styles.input}
             />
 
+            <Text style={styles.label}>Sobrenome</Text>
             <TextInput
-                value={sobrenome}
                 onChangeText={setSobrenome}
-                placeholder='Sobrenome'
+                keyboardType='ascii-capable'
+                value={sobrenome}
                 style={styles.input}
             />
 
-            <TouchableOpacity 
-                style={styles.botao} 
-                onPress={() => handleExibeMensagem()}
+            <TouchableOpacity
+                style={styles.botao}
+                onPress={() => handleExibeNomeCompleto()}
             >
-                <Text style={styles.txtBotao}>Exibir Nome Completo</Text>
-            </TouchableOpacity> 
+                <Text style={styles.txtBotao}>Exibir nome completo</Text>
+            </TouchableOpacity>
 
         </View>
     );
