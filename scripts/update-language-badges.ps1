@@ -38,10 +38,6 @@ $ExtToLang = @{
   '.jsx'  = @{ name='JavaScript'; color='F7DF1E'; logo='javascript'; logoColor='black' };
   '.ts'   = @{ name='TypeScript'; color='3178C6'; logo='typescript'; logoColor='white' };
   '.tsx'  = @{ name='TypeScript'; color='3178C6'; logo='typescript'; logoColor='white' };
-  '.json' = @{ name='JSON'; color='000000'; logo='json'; logoColor='white' };
-  '.ps1'  = @{ name='PowerShell'; color='5391FE'; logo='powershell'; logoColor='white' };
-  '.css'  = @{ name='CSS'; color='1572B6'; logo='css3'; logoColor='white' };
-  '.html' = @{ name='HTML'; color='E34F26'; logo='html5'; logoColor='white' };
 }
 
 function Get-BadgeUrl {
