@@ -1,5 +1,6 @@
 # Aula Introdução - React Native com Expo
 
+<<<<<<< HEAD
 Material desenvolvido com orientação do professor [![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
 
 ## Contexto
@@ -8,12 +9,16 @@ Material desenvolvido com orientação do professor [![Professor Ewerton José d
 - 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
 
 
+=======
+>>>>>>> 71d79f1e3e06843e76926b0d396514525d8caa18
 ![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?style=for-the-badge&logo=github)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![Mobile](https://img.shields.io/badge/Plataforma-Mobile-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Em%20aula-2ea44f?style=for-the-badge)
+
+Material desenvolvido com orientação do professor [![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
 
 > 📱 Repositório com exemplos, atividades e componentes de apoio para as aulas de **Desenvolvimento Mobile** usando **React Native + Expo**.
 
