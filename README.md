@@ -45,23 +45,23 @@ O repositório está dividido em três partes principais:
 
 ## Exemplos apresentados
 
-- [ex-01](src/exemplos/ex-01)
-- [ex-02](src/exemplos/ex-02)
-- [ex-03](src/exemplos/ex-03)
-- [ex-04](src/exemplos/ex-04)
-- [ex-05](src/exemplos/ex-05)
-- [ex-06](src/exemplos/ex-06)
-- [ex-07](src/exemplos/ex-07)
-- [ex-08](src/exemplos/ex-08)
-- [ex-09](src/exemplos/ex-09)
+- [ex-01](src/exemplos/ex-01) - introdução ao React Native com estrutura básica de tela e texto.
+- [ex-02](src/exemplos/ex-02) - uso de imagens e componentes reutilizáveis para exibir mensagens.
+- [ex-03](src/exemplos/ex-03) - manipulação de state, eventos de clique e alertas.
+- [ex-04](src/exemplos/ex-04) - captura de texto com TextInput e exibição de conteúdo digitado.
+- [ex-05](src/exemplos/ex-05) - calculadora básica para treinar state, foco e campos numéricos.
+- [ex-06](src/exemplos/ex-06) - cálculo de IMC com componentes separados para entrada e botão.
+- [ex-07](src/exemplos/ex-07) - calculadora completa com operações e histórico de cálculo.
+- [ex-08](src/exemplos/ex-08) - lista de compras com inclusão e remoção de itens.
+- [ex-09](src/exemplos/ex-09) - jogo da velha com controle de jogadas e vencedor.
 
 ## Atividades propostas
 
-- [atv-01](src/atividades/atv-01)
-- [atv-02](src/atividades/atv-02)
-- [atv-03](src/atividades/atv-03)
-- [atv-04](src/atividades/atv-04)
-- [atv-05](src/atividades/atv-05)
+- [atv-01](src/atividades/atv-01) - primeira atividade de layout e organização visual da tela.
+- [atv-02](src/atividades/atv-02) - montagem de cards com imagens, descrição e preço de produtos.
+- [atv-03](src/atividades/atv-03) - exercício de state com soma, subtração e zerar contador.
+- [atv-04](src/atividades/atv-04) - formulário simples para montar nome completo a partir de dois campos.
+- [atv-05](src/atividades/atv-05) - calculadora básica com soma, subtração, divisão, multiplicação e limpeza.
 
 ## Componentes de apoio
 
