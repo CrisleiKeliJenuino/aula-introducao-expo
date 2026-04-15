@@ -39,7 +39,7 @@ O repositório está dividido em três partes principais:
 
 - 📚 [src/exemplos](src/exemplos) - exemplos usados nas explicações da aula.
 - 🧪 [src/atividades](src/atividades) - atividades propostas para prática.
-- 👨‍🏫 [src/atividades_professor](src/atividades_professor) - versões de referência e apoio do professor.
+- 👨‍🏫 [src/atividades_professor](src/atividades_professor) - exercícios resolvidos.
 
 ## Exemplos apresentados
 
