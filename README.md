@@ -1,5 +1,10 @@
 # Aula Introdução - React Native com Expo
 
+## Créditos
+
+Material desenvolvido com orientação do professor [Ewerton José da Silva](https://github.com/ewertonjsilva).
+
+![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?style=for-the-badge&logo=github)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
@@ -70,6 +75,6 @@ Alguns exercícios foram quebrados em componentes menores para facilitar o reapr
 
 Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
 
-## Créditos
+## Para você, aluna
 
-Material desenvolvido com orientação do professor [Ewerton José da Silva](https://github.com/ewertonjsilva).
+Este material foi preparado para te ajudar a acompanhar a aula, praticar com calma e revisar os conteúdos sempre que precisar. 🌷
