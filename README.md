@@ -2,7 +2,7 @@
 
 - Material desenvolvido com orientação do professor:
 
-[![GitHub do Professor](https://img.shields.io/badge/GitHub%20do%20Professor-%40ewertonjsilva-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ewertonjsilva) 
+[![GitHub ewertonjsilva](https://img.shields.io/badge/GitHub-ewertonjsilva-8A2BE2?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)](https://github.com/ewertonjsilva)
 
 - 🎓 Curso: Técnico em Desenvolvimento de Sistemas
 - 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
@@ -20,8 +20,7 @@ ________________________________________________________________________________
 O projeto foi organizado para acompanhar a evolução das aulas: primeiro os exemplos introdutórios, depois as atividades práticas desenvolvidas em sala. ✨
 
 <!-- Language badges:start -->
-![Linguagem principal: JavaScript 98.4%](https://img.shields.io/badge/Linguagem%20principal-JavaScript%2098.4%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![JSON 1.6%](https://img.shields.io/badge/JSON-1.6%25-000000?style=for-the-badge&logo=json&logoColor=white)
+![Linguagem principal: JavaScript 100%](https://img.shields.io/badge/Linguagem%20principal-JavaScript%20100%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 <!-- Language badges:end -->
 
 ## ✨ Destaques
@@ -80,5 +79,8 @@ Alguns exercícios foram quebrados em componentes menores para facilitar o reapr
 Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
 
 Este material foi preparado para te ajudar a acompanhar a aula, praticar com calma e revisar os conteúdos sempre que precisar. 🌷
+
+
+
 
 

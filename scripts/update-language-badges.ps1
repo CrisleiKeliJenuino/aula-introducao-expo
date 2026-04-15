@@ -38,8 +38,6 @@ $ExtToLang = @{
   '.jsx'  = @{ name='JavaScript'; color='F7DF1E'; logo='javascript'; logoColor='black' };
   '.ts'   = @{ name='TypeScript'; color='3178C6'; logo='typescript'; logoColor='white' };
   '.tsx'  = @{ name='TypeScript'; color='3178C6'; logo='typescript'; logoColor='white' };
-  '.json' = @{ name='JSON'; color='000000'; logo='json'; logoColor='white' };
-  '.md'   = @{ name='Markdown'; color='000000'; logo='markdown'; logoColor='white' };
   '.css'  = @{ name='CSS'; color='1572B6'; logo='css3'; logoColor='white' };
   '.html' = @{ name='HTML'; color='E34F26'; logo='html5'; logoColor='white' };
 }
@@ -124,7 +122,7 @@ $rows = $stats.GetEnumerator() | ForEach-Object {
 
 $totalBytes = ($rows | Measure-Object -Property bytes -Sum).Sum
 
-$rowsWithPct = $rows | ForEach-Object {
+$rowsWithPct = @($rows | ForEach-Object {
   $p = 0
   if ($totalBytes -gt 0) { $p = ($_.bytes / $totalBytes) * 100 }
   [pscustomobject]@{
@@ -134,7 +132,7 @@ $rowsWithPct = $rows | ForEach-Object {
     logo = $_.logo
     logoColor = $_.logoColor
   }
-}
+})
 
 function Build-BadgeBlock {
   param($Rows)
