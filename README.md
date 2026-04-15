@@ -2,6 +2,8 @@
 
 ## Créditos
 
+![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)
+
 Material desenvolvido com orientação do professor [Ewerton José da Silva](https://github.com/ewertonjsilva).
 
 ![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?style=for-the-badge&logo=github)
@@ -75,6 +77,6 @@ Alguns exercícios foram quebrados em componentes menores para facilitar o reapr
 
 Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
 
-## Para você, aluna
+## Para você, aluna(o)
 
 Este material foi preparado para te ajudar a acompanhar a aula, praticar com calma e revisar os conteúdos sempre que precisar. 🌷
