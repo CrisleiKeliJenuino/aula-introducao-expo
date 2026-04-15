@@ -1,10 +1,12 @@
 # Aula Introdução - React Native com Expo
 
-## Créditos
+Material desenvolvido com orientação do professor [![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
 
-[![Professor Ewerton José da Silva](https://img.shields.io/badge/Professor-Ewerton%20Jos%C3%A9%20da%20Silva-6C63FF?style=for-the-badge)](https://github.com/ewertonjsilva)
+## Contexto
 
-Material desenvolvido com orientação do professor [Ewerton José da Silva](https://github.com/ewertonjsilva).
+- 🎓 Curso: Técnico em Desenvolvimento de Sistemas
+- 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
+
 
 ![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?style=for-the-badge&logo=github)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -23,11 +25,6 @@ O projeto foi organizado para acompanhar a evolução das aulas: primeiro os exe
 - 🧩 Componentes separados por responsabilidade.
 - 🎯 Código organizado para facilitar demonstrações em aula.
 - 🛠️ Compatível com execução em Android, iOS e Web.
-
-## Contexto
-
-- 🎓 Curso: Técnico em Desenvolvimento de Sistemas
-- 🏫 Instituição: ETEC Prof. Massuyuki Kawano - Tupã/SP
 
 ## Como executar
 
@@ -76,7 +73,5 @@ Alguns exercícios foram quebrados em componentes menores para facilitar o reapr
 ## Objetivo da aula
 
 Apresentar os conceitos fundamentais do React Native com Expo, destacando estrutura de projeto, componentes básicos, organização por módulos e fluxo de execução da aplicação.
-
-## Para você, aluna(o)
 
 Este material foi preparado para te ajudar a acompanhar a aula, praticar com calma e revisar os conteúdos sempre que precisar. 🌷
